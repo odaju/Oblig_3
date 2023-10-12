@@ -66,13 +66,13 @@ main section h2{
 
 footer ul{
     display: inline;
-    text-decoration: none;
     text-align: center;
     text-transform: uppercase;
-    margin:10px;
+    list-style: none;
 }
 
 footer{
     background-color: #9bbadc;
     margin: auto;
+    padding:3rem
 }
