@@ -25,14 +25,12 @@ body{
 }
 
 header nav ul li{
-text-decoration: none;
-display: inline;
-text-align: justify;
-text-transform: uppercase;
-margin-right: 40px;
+    text-decoration: none;
+    display: inline;
+    text-align: justify;
+    text-transform: uppercase;
 }
-
-ul{
+header ul{
     padding: 10px;
     margin: 5px;
     margin-right: 40px;
@@ -48,8 +46,36 @@ ul{
     text-decoration:none;
 }
 
-main section{
-    padding: 0 1rem 1rem 0;
-    text-align: center;
+a{
+    align-self: auto;
 }
 
+main section{
+    padding: 1rem 1rem 1rem 1rem;
+    text-align: center;
+    margin: 2rem;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+main section h2{
+    text-transform: uppercase;
+    height: auto;
+    max-width: 100%;
+}
+
+footer ul{
+    display: inline;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    margin:10px;
+}
+
+footer{
+    background-color: #9bbadc;
+    margin: auto;
+}
