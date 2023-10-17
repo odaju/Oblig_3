@@ -16,6 +16,18 @@
     margin-left: 12px;
 }
 
+header nav ul li{
+    text-decoration: none;
+    display: inline;
+    text-align: right;
+    text-transform: uppercase;
+
+}
+
+.navbar{
+        text-align: right;
+}
+
 body{
     margin: 0;
     padding:0;
@@ -24,25 +36,12 @@ body{
     background-color:#fff
 }
 
-header nav ul li{
-    text-decoration: none;
-    display: inline;
-    text-align: justify;
-    text-transform: uppercase;
-}
-header ul{
-    padding: 10px;
-    margin: 5px;
-    margin-right: 40px;
-}
-
 .button {
     background-color: #9bbadc;
     color: #fff;
     border: none;
     padding: 5px 15px;
     border-radius: 5px;
-    cursor: pointer;
     text-decoration:none;
 }
 
@@ -50,29 +49,50 @@ main section{
     padding: 1rem 1rem 1rem 1rem;
     text-align: center;
     margin: 2rem;
-    text-align: center;
+}
+
+main h2{
+    display: none;
+    text-transform: uppercase;
+    height: auto;
+    max-width: 100%;
 }
 
 img{
     max-width: 100%;
     height: auto;
+    align-items: center;
 }
-
-main section h2{
-    text-transform: uppercase;
-    height: auto;
-    max-width: 100%;
-}
-
-footer ul{
-    display: inline;
+article h3{
     text-align: center;
-    text-transform: uppercase;
-    list-style: none;
 }
+
+.shop-btn{
+    background-color: #442610;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    width: 6rem;
+  }
 
 footer{
     background-color: #9bbadc;
-    margin: auto;
-    padding:3rem
+    padding:3rem;
+    text-align: center;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li{
+    display:inline;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 10px;
 }
