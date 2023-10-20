@@ -1,5 +1,8 @@
-*{
-    box-sizing: border-box;
+body{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif
 }
 .top-bar{
     background-color:#9bbadc;
@@ -8,32 +11,33 @@
     padding: 0.5px 0;
 }
 
-#Logo{
-    text-decoration: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 25px;
-    text-transform: uppercase;
-    margin-left: 12px;
+#grid-container {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
 }
 
-header nav ul li{
-    text-decoration: none;
-    display: inline;
-    text-align: right;
-    text-transform: uppercase;
-
+header{
+    padding: 1rem;
 }
 
 .navbar{
-        text-align: right;
+    display:none;
 }
 
-body{
-    margin: 0;
-    padding:0;
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    flex-direction: row;
+    justify-content: right;
+}
+
+#Logo{
     text-decoration: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color:#fff
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-left: 12px;
 }
 
 .button {
@@ -63,6 +67,7 @@ img{
     height: auto;
     align-items: center;
 }
+
 article h3{
     text-align: center;
 }
@@ -85,14 +90,38 @@ footer{
     text-align: center;
 }
 
-footer ul{
+footer ul li{
     list-style: none;
     padding: 0;
-}
-
-footer ul li{
     display:inline;
     text-transform: uppercase;
     color: #fff;
     margin: 0 10px;
+}
+
+@media only screen and (min-width:600px) {
+
+    #grid-container{
+        grid-template-areas: "header header header" ". main." "footer footer footer"
+    }
+
+    footer{
+        position: fixed;
+        width:100%
+    }
+
+    .flex-section{
+        align-items:baseline;
+    }
+
+    .mobil-navbar{
+        display: none;
+    }
+
+    .navbar{
+        display:block;
+        text-align: left;
+    }
+
+
 }
