@@ -150,13 +150,57 @@ main article a{
 section article a{
     text-decoration: none;
     color:lightgray;
-    
 }
 
 main h5{
+    text-align: center;
+    font-weight: 100;
+    font-size: 27px;
+    color: #fff;
+    border-radius: 15px;
+    background-color: #a8a39f;
+    padding: 5px 15px;
+}
+
+main section a{
+    text-decoration: none;
+    color:lightgray;
+}
+
+#handlekurv{
+    text-align: center;
+    font-weight: bold;
+    color: #6a5f5f;
+}
+
+#summary{
+    text-align: center;
+    color: #6a5f5f;
+}
+
+#total-sum{
+    font-weight:bold;
     font-size: 25px;
 }
 
+#pay-options{
+    list-style: none;
+    display: flex;
+    font-size: 40px;
+    justify-content: space-evenly;
+    color:#6a5f5f;
+}
+
+#betale-btn{
+    text-align: center;
+    font-weight: 100;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 15px;
+    background-color: #a8a39f;
+    padding: 5px 15px;
+    margin: 20px;
+}
 
 @media only screen and (min-width:600px) {
 
@@ -224,5 +268,4 @@ main h5{
     justify-content: space-between;
     gap: 1rem;
     }
-
 }
