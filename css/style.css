@@ -34,12 +34,20 @@ header{
     padding: 10px;
 }
 
+.mobil-navbar{
+    text-align: right;
+    font-size: 30px;
+    margin: 0 2rem 0 2rem;
+    color: #6a5f5f;
+}
+
 
 #Logo{
     text-decoration: none;
     font-size: 25px;
     text-transform: uppercase;
     margin-left: 12px;
+    color: #442610
 }
 
 .button {
@@ -101,6 +109,25 @@ footer ul li{
     margin: 0 10px;
 }
 
+main h4{
+    text-align: center;
+    font-weight: 100;
+    font-size: 27px;
+    color: #fff;
+    border-radius: 15px;
+    background-color: #a8a39f;
+    padding: 5px 15px;
+}
+
+.socials{
+    display: inline;
+}
+
+main section {
+    font-weight:600;
+}
+
+
 @media only screen and (min-width:600px) {
 
     #grid-container{
@@ -109,6 +136,7 @@ footer ul li{
 
     footer{
         position: fixed;
+        height:100%;
         width:100%
     }
 
@@ -131,7 +159,7 @@ footer ul li{
     header nav ul li a{
         text-decoration: none;
         background-color: #9bbadc;
-        color: #fff;
+        color:#442610;
         border: none;
         padding: 5px 15px;
         border-radius: 5px;
@@ -141,7 +169,7 @@ footer ul li{
     nav label{
         padding: 1rem;
         background-color: #9bbadc;
-        color: #fff;
+        color:#442610;
         border: none;
         padding: 5px 15px;
         border-radius: 5px;
@@ -153,6 +181,16 @@ footer ul li{
         flex-direction: column;
         width: 100%;
         height: auto;
+    }
+
+    main h4{
+        text-align: center;
+    }
+
+    .flex-section-produkt{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
     }
 
 }

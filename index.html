@@ -1,43 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" type="text/css">
+        <link href="css/font/css/fontawesome.css" rel="stylesheet">
+        <link href="css/font/css/brands.css" rel="stylesheet">
+        <link href="css/font/css/solid.css" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css" type="text/css">
         <title>Cloudwalking</title>
     </head>
     <body>
-        <div class="top-bar"> Fri frakt</div>
+        <div class="top-bar">Fri frakt</div>
+        <div id="grid-container">
         <header>
                 <a href="index.html" id="Logo">Cloudwalking</a>
-            <nav>
-                <ul class="navbar">
-                    <li><a href="#"></a>Hamburger</li>
-                    <li><a href="#"></a>Søk</li>
-                    <li><a href="#"></a>Min side</li>
-                    <li><a href="handlekurv.html"></a>Handlekurv</li>
-                </ul>
-            </nav>
+                
+                <div class="mobil-navbar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i id="ham" class="fa-solid fa-bars"></i>
+                    <i class="fa-regular fa-user"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="produkt.html">Produkter</a></li>
+                        <li><a href="handlekurv.html">Handlekurv</a></li>
+                    </ul>
+                    <label>
+                        Søk
+                        <input type="text" name="search" placeholder="Merke,uniformsko..">
+                    </label>
+                </nav>
         </header>
         <main>
-            <section>
+            <section class="flex-section">
                 <h2>Produkter</h2>
                 <a href="produkt.html" class="button">Dame</a>
                 <a href="produkt.html" class="button">Herre</a>
             </section>
-            <article>
+            <article class="flex-section-bilde">
                     <img src="img/shoes-2538424_640.jpg" alt="bilde av sko">
                     <h3>Kampanje!</h3>
             </article>
+            <article>
+                <a href="produkt.html" class="shop-btn">Shop nå</a>
+            </article>
         </main>
-        <article>
-            <a href="#" class="shop-btn">Shop nå</a>
-        </article>
+    </div>
         <footer>
-            <ul>
-                <li><a href="#"></a>Facebook</li>
-                <li><a href="#"></a>Instagram</li>
-                <li><a href="#"></a>Tiktok</li>
+            <ul class="socials">
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Tiktok</li>
             </ul>
         </footer>
     </body>
