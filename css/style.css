@@ -20,6 +20,13 @@ header{
     padding: 1rem;
 }
 
+#brodsmule{
+    text-decoration: none;
+    font-size: 10px;
+    color:#6a5f5f;
+    margin-left:0.5rem;   
+}
+
 .navbar{
     display:none;
 }
@@ -55,7 +62,7 @@ header{
     background-color: #9bbadc;
     color: #fff;
     border: none;
-    padding: 5px 15px;
+    padding: 5px 20px;
     border-radius: 5px;
     text-decoration:none;
 }
@@ -65,7 +72,6 @@ main section{
     text-align: center;
     margin: 2rem;
     font-weight:600;
-    display:inline;
 }
 
 main h2{
@@ -86,7 +92,7 @@ article h3{
 }
 
 .shop-btn{
-    background-color: #442610;
+    background-color: #a8a39f;
     color: #fff;
     padding: 5px 15px;
     border-radius: 5px;
@@ -112,6 +118,10 @@ footer ul li{
     margin: 0 10px;
 }
 
+footer p{
+    color: #fff;
+}
+
 main h4{
     text-align: center;
     font-weight: 100;
@@ -124,11 +134,17 @@ main h4{
 
 .socials{
     display: inline;
+    font-size: 25px;
+
 }
 
 .priser{
     color: #6a5f5f;
     font-size:19px;
+}
+main article a{
+    text-decoration: none;
+    color:lightgray;
 }
 
 section article a{
@@ -136,6 +152,11 @@ section article a{
     color:lightgray;
     
 }
+
+main h5{
+    font-size: 25px;
+}
+
 
 @media only screen and (min-width:600px) {
 
