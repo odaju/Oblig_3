@@ -30,8 +30,10 @@ header{
     flex-wrap: wrap;
     gap: 1rem;
     flex-direction: row;
-    justify-content: right;
+    justify-content: left;
+    padding: 10px;
 }
+
 
 #Logo{
     text-decoration: none;
@@ -111,7 +113,9 @@ footer ul li{
     }
 
     .flex-section{
-        align-items:baseline;
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
     }
 
     .mobil-navbar{
@@ -119,9 +123,36 @@ footer ul li{
     }
 
     .navbar{
+        text-decoration: none;
         display:block;
         text-align: left;
     }
 
+    header nav ul li a{
+        text-decoration: none;
+        background-color: #9bbadc;
+        color: #fff;
+        border: none;
+        padding: 5px 15px;
+        border-radius: 5px;
+        text-decoration:none;
+    }
+
+    nav label{
+        padding: 1rem;
+        background-color: #9bbadc;
+        color: #fff;
+        border: none;
+        padding: 5px 15px;
+        border-radius: 5px;
+        text-decoration:none;
+    }
+
+    .flex-section-bilde{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
 
 }
