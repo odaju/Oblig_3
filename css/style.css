@@ -138,7 +138,6 @@ main h4{
 .socials{
     display: inline;
     font-size: 25px;
-
 }
 
 .priser{
@@ -176,6 +175,16 @@ main section a{
     color: #6a5f5f;
 }
 
+#handklekurv-btn{
+    background-color: #a8a39f;
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-decoration:none;
+}
+
+
 #summary{
     text-align: center;
     color: #6a5f5f;
@@ -203,6 +212,13 @@ main section a{
     background-color: #a8a39f;
     padding: 5px 15px;
     margin: 20px;
+}
+
+#brodsmule-mobil{
+    text-decoration: none;
+    font-size: 10px;
+    color:#6a5f5f;
+    margin-left:0.5rem; 
 }
 
 @media only screen and (min-width:600px) {
@@ -283,5 +299,13 @@ main section a{
     main{
         display: flex;
         flex-direction: column;
+    }
+
+    #handklekurv-btn{
+        display: none;
+    }
+
+    #brodsmule-mobil{
+        display: none;
     }
 }
