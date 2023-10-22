@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding:0;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .top-bar{
     background-color:#9bbadc;
@@ -59,7 +59,7 @@ header{
 }
 
 .button {
-    background-color: #9bbadc;
+    background-color: #a8a39f;
     color: #fff;
     border: none;
     padding: 5px 20px;
@@ -89,6 +89,9 @@ img{
 
 article h3{
     text-align: center;
+    color: #6a5f5f;
+    font-size: 30px;
+    margin:0;
 }
 
 .shop-btn{
