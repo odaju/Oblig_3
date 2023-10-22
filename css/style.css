@@ -103,7 +103,7 @@ article h3{
     width: 6rem;
   }
 
-footer{
+  footer{
     background-color: #9bbadc;
     padding:3rem;
     text-align: center;
@@ -205,13 +205,17 @@ main section a{
 @media only screen and (min-width:600px) {
 
     #grid-container{
-        grid-template-areas: "header header header" ". main." "footer footer footer"
+        grid-template-areas: "header header header" "main" "footer footer footer "
+    }
+
+    header{
+        top: auto;
     }
 
     footer{
-        position: fixed;
-        height:100%;
-        width:100%
+        position:absolute;
+        width:100%;
+        bottom: 0;
     }
 
     .flex-section{
@@ -225,8 +229,8 @@ main section a{
     }
 
     .navbar{
-        text-decoration: none;
         display:block;
+        text-decoration: none;
         text-align: left;
         font-weight: 600;
     }
@@ -264,8 +268,17 @@ main section a{
     }
 
     .flex-section-produkt{
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .flex-section-footer{
+        position: relative;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
     }
 }
