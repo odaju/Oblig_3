@@ -222,6 +222,22 @@ main section a{
     margin-left:0.5rem; 
 }
 
+#fortsett-btn{
+    text-align: center;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 15px;
+    background-color: #a8a39f;
+    padding: 5px 15px;
+    margin: 0.3rem;
+}
+
+#mershop-btn{
+margin-top: 30px;
+}
+
 @media only screen and (min-width:600px) {
 
     #grid-container{
