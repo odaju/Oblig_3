@@ -182,6 +182,7 @@ main section a{
     padding: 5px 20px;
     border-radius: 5px;
     text-decoration:none;
+    display: inline-flex;
 }
 
 
@@ -301,8 +302,11 @@ main section a{
         flex-direction: column;
     }
 
-    #handklekurv-btn{
-        display: none;
+    #brodsmule{
+        text-decoration: none;
+        font-size: 10px;
+        color:#6a5f5f;
+        margin-left:2rem;   
     }
 
     #brodsmule-mobil{
